@@ -3,15 +3,8 @@
 
 Remove the NotebookLM watermark (logo + text) from the bottom-right corner
 of slides in exported PPTX files.
-
-Usage:
-    python3 notebooklm_dewatermark.py input.pptx
-    python3 notebooklm_dewatermark.py input.pptx -o output.pptx
-    python3 notebooklm_dewatermark.py *.pptx
-    python3 notebooklm_dewatermark.py input.pptx --wm-width 200 --wm-height 40
-    
-    # HOẶC CHỈ CẦN CHẠY TRỰC TIẾP (CLICK ĐÚP) ĐỂ TỰ ĐỘNG XỬ LÝ TẤT CẢ FILE PPTX TRONG THƯ MỤC
-    python3 notebooklm_dewatermark.py
+CHỈ CẦN CHẠY TRỰC TIẾP (CLICK ĐÚP) ĐỂ TỰ ĐỘNG XỬ LÝ TẤT CẢ FILE PPTX TRONG THƯ MỤC
+    python3 remove_notebooklm_watermark.py
 """
 
 import argparse
